@@ -1,0 +1,9 @@
+.posts{
+    margin: 0 auto;
+    position: relative;
+    width: 700px;
+}
+.posts {
+    border-top: 7px solid #eee;
+    height: 50px;
+}

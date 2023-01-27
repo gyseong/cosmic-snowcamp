@@ -1,0 +1,47 @@
+.tab_contents {
+    margin: 0 auto;
+    position: relative;
+    width: 700px;
+}.ir_caption, .screen_out {
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.screen_out {
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+user agent stylesheet
+strong {
+    font-weight: bold;
+}
+.tab_contents .list_tab {
+    border-top: 1px solid #eee;
+    height: 58px;
+}
+
+dl, li, menu, ol, ul {
+    list-style: none;
+}
+.tab_contents .list_tab li {
+    float: left;
+    width: 33.3333%;
+    font-family: "Noto Sans DemiLight","Malgun Gothic";
+}
+.tab_contents .list_tab .link_tab {
+    border-top: 1px solid transparent;
+    color: #959595;
+    display: block;
+    font-size: 16px;
+    height: 24px;
+    margin-top: -1px;
+    padding: 16px 0 17px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+a, a:active, a:hover {
+    text-decoration: none;
+}

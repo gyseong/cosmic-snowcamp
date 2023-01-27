@@ -1,0 +1,64 @@
+h3+.author_intro {
+    padding-top: 34px;
+}
+.author_intro {
+    margin: 0 auto;
+    padding-top: 56px;
+    width: 700px;
+}
+.animation_up {
+    -webkit-animation: animation_up .2s;
+    animation: animation_up .2s;
+    transition: opacity .2s ease-out 0s,transform .2s ease-out 0s;
+}
+.author_intro [class*=tit_intro] {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+}
+strong {
+    font-weight: bold;
+}
+.author_intro [class*=desc_intro] {
+    color: #666;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 24px;
+    padding-top: 22px;
+}
+.author_intro .list_tag {
+    overflow: hidden;
+    padding-top: 13px;
+}
+dl, li, menu, ol, ul {
+    list-style: none;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Noto Sans DemiLight","Malgun Gothic";
+    text-rendering: inherit;
+    margin: 0;
+    padding: 0;
+}
+.author_intro .link_tag {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    color: #959595;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: -1px;
+    padding: 4px 10px;
+}
+a, a:active, a:hover {
+    text-decoration: none;
+}
+a {
+    color: #333;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+li {
+    text-align: -webkit-match-parent;
+    line-height: 1.5;
+}

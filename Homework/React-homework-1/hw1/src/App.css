@@ -1,0 +1,29 @@
+
+#wrapHome .header_head_menubar, body {
+    background-color: #fff;
+}
+
+body, button, input, select, td, textarea, th {
+    font-size: 14px;
+    line-height: 1.5;
+}
+body {
+    background: #fff;
+    color: #333;
+}
+#wrapSideMenu .wrap_side_profile.logout {
+    background: #f8f8f8;
+    height: 239px;
+}
+#wrapSideMenu .wrap_side_profile {
+    background-color: #f6f6f6;
+    height: 239px;
+    overflow: hidden;
+    position: relative;
+}
+img.profileUserImage{
+    position: absolute;
+}
+body{
+    background-color: whitesmoke;
+}

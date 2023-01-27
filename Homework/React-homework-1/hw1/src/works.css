@@ -1,0 +1,21 @@
+h3+.author_intro {
+    padding-top: 34px;
+}
+.author_intro {
+    margin: 0 auto;
+    padding-top: 56px;
+    width: 700px;
+}
+.animation_up {
+    -webkit-animation: animation_up .2s;
+    animation: animation_up .2s;
+    transition: opacity .2s ease-out 0s,transform .2s ease-out 0s;
+}
+.author_intro [class*=tit_intro] {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+}
+strong {
+    font-weight: bold;
+}

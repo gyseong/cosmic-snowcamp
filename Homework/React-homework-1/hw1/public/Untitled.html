@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <header class="header_menubar">
+            <div class="cover_image"></div>
+            <div class="wrap_profile">
+                <div class="bloger_thumb">
+                    <img class="profileUserImage" src="C:/Users/jsjs8/HTML-practice/reacthw01/src/11.jpg" width="100" height="100" alt="이미지정보">
+                </div>
+                <div class="wrap_profile_desc">
+                    <strong class="profileUserName">조경서</strong>
+                    <span class="blog_cpeg">
+                        <em class="screen_out">소속</em>
+                        <span class="txt_info">COSMIC</span>
+                        <em calss="screen_out">직업</em>
+                        <span class="txt_info">학생</span>
+                    </span>
+                    <dl class="blog_count">
+                        <dt class="screen_out">브런치 정보</dt>
+                        <dd>
+                            <a href="" class="link_count #follower">
+                                <em class="txt_g">구독자</em>
+                                <span class="num_count">1,270</span>
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="" class="link_count #following">
+                                <em class="txt_g">관심작가</em>
+                                <span class="num_count">26</span>
+                            </a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="wrap_profile_btn">
+                    <span class="#my_follow">
+                        <button type="button" class="btn_type btn_default btn_profile btnFollow #p_follow">구독하기</button>
+                    </span>
+                    <div class="more_control"> <!-- 메뉴더보기 클릭시 ctrl_on 클래스 추가 -->
+                        <button type="button" class="btnMoreToggle btn_morectrl">
+                            <span class="ico_brunch_v1 ico_morectrl">
+                                메뉴 더보기
+                            </span>
+                        </button>
+                        <div class="layer_action_ctrl">
+                            <div class="inner_action_ctrl">
+                                <button type="button" class="btnBlockProfile btn_ctrl requireLogin">
+                                    차단하기
+                                </button>
+                                <button type="button" class="btnReportProfile btn_ctrl requireLogin">
+                                    신고하기
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_contents">
+                <strong class="screen_out">작가프로필 하위메뉴</strong>
+                <ul id="contentsTab" class="list_tab">
+                    <li>
+                        <a href="#info" class="infoTab link_tab #info_open">
+                            <span class="txt_tab">작가소개</span>
+                        </a>
+                    </li>
+                    <li class="on">
+                        <a href="#articles" class="articleTab link_tab">
+                            <span class="txt_tab">글 28</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#works" class="magazineTab link_tab">
+                            <span class="txt_tab">작품 0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="wrap_contents">
+                <div id="wrapInfo" class="wrap_authorinfo #my_profile_info" style="display: none;">
+                    <h3 class="screen_out">학생소개</h3>
+                    <div class="author_intro animation_up">
+                        <strong class="tit_intro">소개</strong>
+                        <p class="desc_intro">충북대학교에 재학중인 조경서입니다.</p>
+                        <ul class="list_tag">
+                            <li>
+                                <a href="/keyword/profile/IT" class="link_tag #profilekeyword">IT</a>
+                            </li>
+                            <li>
+                                <a href="/keyword/profile/토익" class="link_tag #profilekeyword">토익</a>
+                            </li>
+                            <li>
+                                <a href="/keyword/profile/충북대학교" class="link_tag #profilekeyword">충북대학교</a>
+                            </li>
+                            <li>
+                                <a href="/keyword/profile/축구" class="link_tag #profilekeyword">축구</a>
+                            </li>
+                            <li>
+                                <a href="/keyword/profile/git" class="link_tag #profilekeyword">git</a>
+                            </li>
+                            <li>
+                                <a href="/keyword/profile/개발자" class="link_tag #profilekeyword">개발자</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="wrapArticle" class="wrap_article #my_post" style="display: block;">
+                    <h3 class="screen_out">글목록</h3>
+                    <div class="wrap_article_list">
+                        <ul class="list_article list_post2 #post_list">
+                            <li data-articleuid="5tdm_28" class="animation_up">
+                                <a href="/@javajigi/28" class="link_thumb #post_imageview" data-tiara-action-name="작가 프로필 > 글탭 > 리스트 클릭" data-tiara-action-kind="ClickContent" data-tiara-layer="articles" data-tiara-id="@@5tdm">
+                                    <div class="post_thumb">
+                                            <img class="img_thumb" src="//img1.daumcdn.net/thumb/C280x280.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/5tdm/image/fW2N0Gm4dHvpLENGdZQY-S2NkUA.jpg" alt="이미지정보">
+                                    </div>
+                                </a>
+                                <a href="/@javajigi/28" class="link_post #post_imageview" data-tiara-action-name="작가 프로필 > 글탭 > 리스트 클릭" data-tiara-action-kind="ClickContent" data-tiara-layer="articles" data-tiara-id="@@5tdm">
+                                    <div class="post_title">
+                                        <strong class="tit_subject">
+                                            1000일간의 운동 기록
+                                        </strong>
+                                        <div class="wrap_sub_content">
+                                            <span class="article_content">
+                                                운동의 시작 건강에 관심을 가져야 할 때라는 것을 알고 있었지만 운동을 시작한 계기는 특별히 없다. 가끔씩 하는 등산과 집 옆에 있는 호수 공원을 걷는 것이 전부였다.  2019년 1월,&nbsp;우아한형제들에 입사를 했다. 입사를 하고 1, 2개월 지났을 즈음&nbsp;임원을 대상으로 새로운 복지 제도가 생겼는데 그중의 하나가 체력단련비 지원이었다. 처음에는 딱히 하고 싶
+                                            </span>
+                                        </div>
+                                        <span class="post_append" style="white-space:nowrap">
+                                            <span class="txt_append">댓글</span>
+                                            <span class="num_txt">5</span>
+                                            <span class="ico_dot"></span>
+                                            <span class="publish_time">May 18. 2022</span>
+                                        </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-articleuid="5tdm_27" class="animation_up">
+                                <a href="/@javajigi/27" class="link_thumb #post_imageview" data-tiara-action-name="작가 프로필 > 글탭 > 리스트 클릭" data-tiara-action-kind="ClickContent" data-tiara-layer="articles" data-tiara-id="@@5tdm">
+                                    <div class="post_thumb">
+                                            <img class="img_thumb" src="//img1.daumcdn.net/thumb/C280x280.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/5tdm/image/awCx6_lLVT4xus0_HP36eWQ_wjg.png" alt="이미지정보">
+                                    </div>
+                                </a>
+                    
+                    
+                                <a href="/@javajigi/27" class="link_post #post_imageview" data-tiara-action-name="작가 프로필 > 글탭 > 리스트 클릭" data-tiara-action-kind="ClickContent" data-tiara-layer="articles" data-tiara-id="@@5tdm">
+                                    <div class="post_title">
+                                        <strong class="tit_subject">
+                                            수료율 71.7%, NPS 97.8%. 어떻게?
+                                        </strong>
+                                        <div class="wrap_sub_content">
+                                            <em class="tit_sub">우아한테크캠프 Pro 2, 3기 후기</em>
+                                                    <span class="ico_bar"></span>
+                                            <span class="article_content">
+                                                수료율 71.7%, NPS 97.8%의 비결은? 교육 과정의 난이도를 대폭 높였음에도 불구하고 우아한테크캠프 Pro 3기의 수료율은 70%, NPS는 97.8%를 달성했다. 우아한테크캠프 Pro 2기와 3기에서 있었던 변화와 시도, 교육에 대한 수료율과 NPS가 높았던 이유에 대해 다뤄본다.  우아한테크캠프 Pro 교육은? 우아한테크캠프 Pro는 우아한형제
+                                            </span>
+                                        </div>
+                                        <span class="post_append" style="white-space:nowrap">
+                                            <span class="txt_append">댓글</span>
+                                            <span class="num_txt">0</span>
+                                            <span class="ico_dot"></span>
+                                            <span class="publish_time">Jan 05. 2022</span>
+                                        </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-articleuid="5tdm_26" class="animation_up">
+                                <a href="/@javajigi/26" class="link_thumb #post_imageview" data-tiara-action-name="작가 프로필 > 글탭 > 리스트 클릭" data-tiara-action-kind="ClickContent" data-tiara-layer="articles" data-tiara-id="@@5tdm">
+                                    <div class="post_thumb">
+                                            <img class="img_thumb" src="//img1.daumcdn.net/thumb/C280x280.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/5tdm/image/OEswlM-r3UZHMyC3RHt23vO4EfI.jpeg" alt="이미지정보">
+                                    </div>
+                                </a>
+                    
+                    
+                                <a href="/@javajigi/26" class="link_post #post_imageview" data-tiara-action-name="작가 프로필 > 글탭 > 리스트 클릭" data-tiara-action-kind="ClickContent" data-tiara-layer="articles" data-tiara-id="@@5tdm">
+                                    <div class="post_title">
+                                        <strong class="tit_subject">
+                                            개발자를 꿈꾸는 취업 준비생에게
+                                        </strong>
+                                        <div class="wrap_sub_content">
+                                            <span class="article_content">
+                                                오늘 아침 운동으로 어깨 운동을 했는데 유난히 힘들었다. 분명 잠도 잘 잤는데 집중이 잘 되지 않았다. 역시나 아침에 중량 운동은 힘들다. 점심으로 햄버거 먹으려고 주문하고 자리에 앉았다. 내 사전에 식사 대용으로 햄버거는 목록에 없었는데 어느 순간 잘도 먹는다. 이 모든 것이 코로나로 인한 재택 때문이다. 아내 눈치를 덜 보기 위한 자구책이다. 자리에 앉
+                                            </span>
+                                        </div>
+                                        <span class="post_append" style="white-space:nowrap">
+                                            <span class="txt_append">댓글</span>
+                                            <span class="num_txt">9</span>
+                                            <span class="ico_dot"></span>
+                                            <span class="publish_time">Aug 09. 2021</span>
+                                        </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-articleuid="5tdm_25" class="animation_up">
+                                <a href="/@javajigi/25" class="link_thumb #post_imageview" data-tiara-action-name="작가 프로필 > 글탭 > 리스트 클릭" data-tiara-action-kind="ClickContent" data-tiara-layer="articles" data-tiara-id="@@5tdm">
+                                    <div class="post_thumb">
+                                            <img class="img_thumb" src="//img1.daumcdn.net/thumb/C280x280.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/5tdm/image/DWRN3aRvoxCDRddO2EX2z9Dv41Q.jpeg" alt="이미지정보">
+                                    </div>  
+                                </a>
+                    
+                    
+                                <a href="/@javajigi/25" class="link_post #post_imageview" data-tiara-action-name="작가 프로필 > 글탭 > 리스트 클릭" data-tiara-action-kind="ClickContent" data-tiara-layer="articles" data-tiara-id="@@5tdm">
+                                    <div class="post_title">
+                                        <strong class="tit_subject">
+                                            근원적 변화는 어떻게 만들 것인가?
+                                        </strong>
+                                        <div class="wrap_sub_content">
+                                            <span class="article_content">
+                                                나이를 먹으면서&nbsp;아침잠이 점점 줄어들고 있다. 재택근무라 출근에 대한 부담도 없어 더 자려고 잠을 청하지만 잠이 오지 않는다. 일찍 잠이 깨면 아침 운동을 하거나, 유튜브 동영상을 보거나, 책을 읽는다. 오늘은 일어나기 싫어 빈둥거리다 갑자기 이전에 읽었던 "뉴타입의 시대"라는 책을 집어 들었다. 이미 읽었던 책이라 큰 기대감은 없었다.&nbsp;무료한 시간을 보내
+                                            </span>
+                                        </div>
+                                        <span class="post_append" style="white-space:nowrap">
+                                            <span class="txt_append">댓글</span>
+                                            <span class="num_txt">0</span>
+                                            <span class="ico_dot"></span>
+                                            <span class="publish_time">Jul 23. 2021</span>
+                                        </span>
+                                    </div>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                    <div id="wrapMagazine" class="wrap_magazine #my_mag" style="display: none;">
+                        <h3 class="screen_out">매거진</h3>
+                        <div class="list_content">
+                            <div id="loadSpinner" class="layer-more-loading" style="display: none;">
+                                <div class="loader">
+                                    <div class="dot dot1"></div><div class="dot dot2"></div><div class="dot dot3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="alert-wrap ">
+                        <img src="//t1.daumcdn.net/brunch/static/img/help/pc/img_logo_empty.png" alt="brunch">
+                        <div class="alert-title">아직 만들어진 작품이 없습니다.</div>
+
+                        <div class="alert-sub-title">브런치홈에서 다른 작가들의<br>다양한 작품을 만나보세요.</div>
+                            <a href="/" class="alert-button">브런치홈 둘러보기</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
