@@ -43,7 +43,7 @@ function App() {
         <div>불러오는 중입니다...</div>
       ) : (
         <ul>
-          {data.length>0 && data.row.map((item) => (
+          {data.I2790.row.map((item) => (
             <li key={item.NUM}>
               <div>{item.DESC_KOR}</div>
             </li>
