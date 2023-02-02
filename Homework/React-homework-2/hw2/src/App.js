@@ -42,14 +42,24 @@ function App() {
      {loading ? (
         <div>불러오는 중입니다...</div>
       ) : (
-        <ul>
-          {data.I2790.row.map((item) => (
-            <li key={item.NUM}>
-              <div>{item.DESC_KOR}</div>
-            </li>
+       <Table striped>
+          <tbody>
+            <tr>
+        {data.I2790&&data.I2790?.row.map((item) => (
+            <div key={item.NUM}>
+              <a href="/foodpage">{item.DESC_KOR}</a>
+              <td>{item.GROUP_NAME}</td>
+              <td>{item.MAKER_NAME}</td>
+              </div>
           ))}
-          </ul>
+          </tr>
+        </tbody>
+          </Table>
       )}
+      <Routes>
+         <Route path="/"></Route>
+         <Route path="/foodpage" element={<Food Chart={data.I2790.row}/>}></Route>
+       </Routes>
    </>
   );
 }
